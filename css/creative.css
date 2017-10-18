@@ -8,9 +8,19 @@ html {
   width: 100%;
   height: 100%; }
 
-body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900);
+.contact-form {
+  margin-top: 30px;
+}
 
+@font-face {
+    font-family: 'bariol_regularregular';
+    src: url('bariolregular-webfont.woff2') format('woff2'),
+         url('bariolregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 hr {
   max-width: 50px;
   border-width: 3px;
