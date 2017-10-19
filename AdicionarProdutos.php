@@ -16,7 +16,7 @@
 			<h3 align="center">Adicionar Produto</h3>	
 			<hr>
 			<?php
-				require 'php/AdicionarProdutoHelper.php';
+				require 'php/adminHelper.php';
 				if (!empty($_POST) && AdicionarProduto($_POST, $_FILES['imagem']['tmp_name'])){
 					echo "<div class='alert alert-success'>
 						<strong>Feito!</strong> Produto adicionado com sucesso.
@@ -45,6 +45,11 @@
 					<button type="submit" class="btn btn-success btn-block">ADICIONAR</button>
 				</div>
 			</form>
+			<div class="form-group">
+				<a href="VisualizarProdutos.php">
+					<button type="submit" class="btn btn-primary btn-block">VER PRODUTOS</button>
+				</a>
+			</div>
 			<hr>
 		</div>
 		<div class="col-md-2">
