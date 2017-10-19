@@ -345,14 +345,16 @@
   text-transform: uppercase;
 }
 .btn.btn-primary {
-  border-color: #E7C727;
-  background-color: #E7C727;
+  border-color: #fcae00;
+  background-color: #fcae00;
+  cursor: pointer;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus,
 .btn.btn-primary:active {
-  border-color: #c5a816;
-  background-color: #c5a816;
+  border-color: #ffab1a;
+  background-color: #ffab1a;
+  cursor: pointer;
 }
 .btn.btn-lg {
   padding: 8px 50px;
