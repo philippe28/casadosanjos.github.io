@@ -192,15 +192,13 @@ body {
         background-color: transparent; }
   @media (min-width: 992px) {
     #mainNav {
-      border-color: rgba(255, 255, 255, 0.3);
-      background-color: transparent; }
+      border-color: rgba(255, 255, 255, 0.3); }
       #mainNav .navbar-brand {
         color: rgba(255, 255, 255, 0.7); }
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
           color: white; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-        color: rgba(255, 255, 255, 0.7); }
         #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
         #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
           color: white; }
@@ -225,7 +223,7 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/header.png");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -280,6 +278,14 @@ header.masthead {
       margin: 20px auto 0; } }
   .service-box p {
     margin-bottom: 0; }
+
+.nuvem-marca {
+  background: url('../img/NuvemMarca.png'); 
+  height: 458px; width: 621px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}    
 
 .portfolio-box {
   position: relative;
