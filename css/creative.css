@@ -35,7 +35,7 @@ body {
 }
 
 
-     .feedback-panel {
+        .feedback-panel {
          padding:20px;
          width: 250px;
          height: auto;
@@ -43,7 +43,7 @@ body {
          border: #29216d 1px solid;
          position:fixed;
          top:80px;
-         left:0px;
+         right:0px;
           z-index:500
      }
 
@@ -57,7 +57,7 @@ body {
            border-width: 1px 1px 1px 0;
            display:block;
            height:101px;
-           left:69px;
+           right:230px;
            bottom:21px;
            position:relative;
            float:right;
