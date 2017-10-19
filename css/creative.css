@@ -13,6 +13,23 @@ html {
   margin-top: 30px;
 }
 
+.blue{
+  color:#96c8ff;
+}
+
+body {
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fontfix {
+    from { opacity: 1; }
+    to   { opacity: 1; }
+}
+
 @font-face {
     font-family: 'bariol_regularregular';
     src: url('bariolregular-webfont.woff2') format('woff2'),
@@ -21,6 +38,57 @@ html {
     font-style: normal;
 
 }
+
+.font_only {
+  font-family: 'Permanent Marker', cursive;
+  font-size:50px;
+  padding-top: 30px;
+  margin: 0 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+
+  /* Safari */
+-webkit-transform: rotate(-3deg);
+
+/* Firefox */
+-moz-transform: rotate(-3deg);
+
+/* IE */
+-ms-transform: rotate(-3deg);
+
+/* Opera */
+-o-transform: rotate(-3deg);
+}
+
+.logo_header{
+
+  width: 300px;
+  height: 100%;
+}
+
+.font_header {
+  
+  font-size:100px;
+  padding-top: 30px;
+  margin: 0 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+
+  /* Safari */
+-webkit-transform: rotate(-3deg);
+
+/* Firefox */
+-moz-transform: rotate(-3deg);
+
+/* IE */
+-ms-transform: rotate(-3deg);
+
+/* Opera */
+-o-transform: rotate(-3deg);
+}
+
 hr {
   max-width: 50px;
   border-width: 3px;
