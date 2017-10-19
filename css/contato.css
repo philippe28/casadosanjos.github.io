@@ -31,7 +31,7 @@
   border: solid 0.5px #00C150;
 }
 .contact-form .input-block.textarea {
-  height: 210px;
+  height: 200px;
 }
 .contact-form .input-block.textarea .form-control {
   height: auto;
@@ -41,15 +41,15 @@
   font-family: 'bariol_regularregular';
   text-transform: uppercase;
   position: absolute;
-  left: 25px;
-  top: 25px;
+  left: 15px;
+  top: 20px;
   display: block;
   margin: 0;
   font-weight: 800;
   z-index: 1;
   color: #00B448;
-  font-size: 21.3px;
-  line-height: 10px;
+  font-size: 13.5px;
+  line-height: 0px;
 }
 .contact-form .input-block .form-control {
   background-color: transparent;
@@ -80,7 +80,7 @@
 
   font-family: 'bariol_regularregular';
   color: #FFF;
-  font-size: 26px;
+  font-size: 22px;
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 1px;
@@ -92,9 +92,10 @@
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  padding: 0 47px 2px 47px;
-  height: 50px;
+  padding: 0 35px 2px 35px;
+  height: 44px;
   border: none;
+  margin-top: -5px;
   /*width: 100%;*/
 
   overflow: hidden;
@@ -123,7 +124,7 @@
 
 .fale {
   font-family: 'Permanent Marker', cursive;
-  font-size:7.2em;
+  font-size:6.5em;
   color: #FFF;
   padding-top: 30px;
   margin: 0 0;
@@ -156,7 +157,7 @@
 
 .section-heading1{
   font-family: 'bariol_regularregular';
-  font-size: 31px;
+  font-size: 26px;
   font-weight: 700;
   color: white;
   text-transform: uppercase;
@@ -165,10 +166,14 @@
 
 .info{
   font-family: 'Raleway', sans-serif;
-  font-size: 21.3px;
+  font-size: 17px;
   color: white;
   margin-top: 0px;
   margin-bottom: -5px;
+}
+
+.info-primeiro{
+  padding-top: 10px;
 }
 
 .iframe-rwd  {
@@ -184,13 +189,15 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+padding-top: 1.5px;
 }
 
 .visitar {
-  margin-top: 28.5px;
+  margin-top: 30px;
 }
 
 hr.style14{
   border-top: 1px solid #fff;
   max-width: 500px;
+  margin-top:10px;
 }
