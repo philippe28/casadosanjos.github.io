@@ -5,8 +5,8 @@
 
 @font-face {
     font-family: 'bariol_regularregular';
-    src: url('bariolregular-webfont.woff2') format('woff2'),
-         url('bariolregular-webfont.woff') format('woff');
+    src: url('../fonts/bariolregular-webfont.woff2') format('woff2'),
+         url('../fonts/bariolregular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -112,8 +112,8 @@
   }
 }
 /*----page styles---*/
-body {
-  background-image: url('/img/BackgroundContato.png');
+.contact{
+  background-image: url('../img/BackgroundContato.png');
   font-family: 'Roboto', sans-serif;
 }
 
@@ -154,7 +154,7 @@ body {
   font-size: 102%;
 }
 
-.section-heading1 {
+.section-heading1{
   font-family: 'bariol_regularregular';
   font-size: 31px;
   font-weight: 700;
@@ -188,4 +188,9 @@ height: 100%;
 
 .visitar {
   margin-top: 28.5px;
+}
+
+hr.style14{
+  border-top: 1px solid #fff;
+  max-width: 500px;
 }
