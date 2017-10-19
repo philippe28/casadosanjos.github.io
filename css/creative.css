@@ -63,7 +63,7 @@ body {
 
 .logo_header{
 
-  width: 200px;
+  width: 84px;
   height: 100%;
 }
 
@@ -176,12 +176,13 @@ body {
     color: #222222; }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus,
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
-    font-size: 13px;
+    font-size: 18px;
     text-transform: uppercase;
     color: #222222; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
-      color: #F05F40; }
+      font-size: 19px;
+      font-style: bold; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active,
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: #F05F40 !important;
@@ -197,10 +198,8 @@ body {
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
           color: white; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link,
-      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-        #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
-        #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-          color: white; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus  {
+          padding-left: 2.5rem }
       #mainNav.navbar-shrink {
         border-color: rgba(34, 34, 34, 0.05);
         background-color: white; }
@@ -258,14 +257,14 @@ header.masthead {
         -ms-transform: translateY(-50%);
         transform: translateY(-50%); }
         header.masthead .header-content .header-content-inner {
-          max-width: 1000px;
+          max-width: 1200px;
           margin-right: auto;
           margin-left: auto; }
           header.masthead .header-content .header-content-inner h1 {
-            font-size: 68px;
+            font-size: 80px;
             font-family: 'Permanent Marker', cursive;
                 position: relative;
-                top: -41px;
+                top: -1.4em;
                 text-indent: 220px;
             -webkit-transform: rotate(-3deg);
             -moz-transform: rotate(-3deg);
@@ -288,10 +287,14 @@ header.masthead {
 
 .nuvem-marca {
   background: url('../img/NuvemMarca.png'); 
+  background-repeat: no-repeat;
   height: 458px; width: 621px; 
   display: flex; 
   justify-content: center; 
   align-items: center;
+  transform: scale(.8);
+  position: relative;
+  top: -1.2em;
 }    
 
 .portfolio-box {
