@@ -1,0 +1,257 @@
+.google-maps {
+            position: relative;
+            padding-bottom: 75%;
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .google-maps iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100% !important;
+            height: 100% !important;
+        }
+        
+        #doacoes {
+            padding: 50px;
+        }
+        
+        .blue_bg {
+            background-color: #AAC6F3;
+        }
+        
+        .blue_txt {
+            color: #AAC6F3;
+        }
+        
+        .white_txt {
+            color: white;
+        }
+        
+        .white_bg {
+            background-color: white;
+        }
+        
+        .orange_txt {
+            color: #FE9025;
+        }
+        
+        .orange_bg {
+            background-color: #FE9025;
+        }
+        
+        .title_big {
+            font-size: 100px;
+            padding: 50px;
+        }
+        
+        .title_medium {
+            font-size: 80px;
+            padding: 35px;
+        }
+        
+        .title_small {
+            font-size: 60px;
+            padding: 25px;
+        }
+        
+        .green_bg {
+            background-color: #6CC24F;
+        }
+        
+        .btn-donation {
+            color: white;
+            border-color: #FE9025;
+            background-color: #FE9025;
+        }
+        
+        .btn-donation.focus,
+        .btn-donation:focus {
+            color: #222222;
+            border-color: #FE9025;
+            background-color: #FE9025;
+        }
+        
+        .btn-donation:hover {
+            color: white;
+            border-color: #DA6E03;
+            background-color: #DA6E03;
+        }
+        
+        .btn-donation.active,
+        .btn-donation:active,
+        .open>.btn-donation.dropdown-toggle {
+            color: white;
+            border-color: #FFA64E;
+            background-color: #FFA64E;
+        }
+        
+        .btn-donation.active.focus,
+        .btn-donation.active:focus,
+        .btn-donation.active:hover,
+        .btn-donation:active.focus,
+        .btn-donation:active:focus,
+        .btn-donation:active:hover,
+        .open>.btn-donation.dropdown-toggle.focus,
+        .open>.btn-donation.dropdown-toggle:focus,
+        .open>.btn-donation.dropdown-toggle:hover {
+            color: white;
+            border-color: #FFA64E;
+            background-color: #FFA64E;
+        }
+        
+        .btn-donation.active,
+        .btn-donation:active,
+        .open>.btn-donation.dropdown-toggle {
+            background-image: none;
+        }
+        
+        .btn-donation.disabled.focus,
+        .btn-donation.disabled:focus,
+        .btn-donation.disabled:hover,
+        .btn-donation[disabled].focus,
+        .btn-donation[disabled]:focus,
+        .btn-donation[disabled]:hover,
+        fieldset[disabled] .btn-donation.focus,
+        fieldset[disabled] .btn-donation:focus,
+        fieldset[disabled] .btn-donation:hover {
+            border-color: white;
+            background-color: white;
+        }
+        
+        .btn-donation .badge {
+            color: white;
+            background-color: #FE9125;
+        }
+        
+        @media only screen and (max-device-width: 1064px) {
+            .title_big {
+                font-size: 60px;
+                padding: 50px;
+            }
+            .title_medium {
+                font-size: 60px;
+                padding: 35px;
+            }
+            .title_small {
+                font-size: 40px;
+                padding: 25px;
+            }
+            .title-primary {
+                top: 30px;
+            }
+            .nuvem-marca {
+                background: url('../img/NuvemMarca.png');
+                background-repeat: no-repeat;
+                height: 458px;
+                width: 600px;
+                position: relative;
+                display: flex;
+                transform: scale(.4);
+                max-width: 200%;
+                top: 90px;
+                right: 100px;
+            }
+            .title-primary {
+                top: 25px;
+            }
+        }
+        
+        @media only screen and (max-device-width: 992px) {
+            .title_big {
+                font-size: 100px;
+                padding: 50px;
+            }
+            .title_medium {
+                font-size: 80px;
+                padding: 35px;
+            }
+            .title_small {
+                font-size: 60px;
+                padding: 25px;
+            }
+            .nuvem-marca {
+                background: url('../img/NuvemMarca.png');
+                background-repeat: no-repeat;
+                height: 458px;
+                width: 600px;
+                position: relative;
+                display: flex;
+                transform: scale(.6);
+                max-width: 200%;
+                top: 70px;
+            }
+            .title-primary {
+                top: 20px;
+            }
+        }
+        
+        @media only screen and (max-device-width: 728px) {
+            .title_big {
+                font-size: 100px;
+                padding: 25px;
+            }
+            .title_medium {
+                font-size: 80px;
+                padding: 15px;
+            }
+            .title_small {
+                font-size: 60px;
+                padding: 5px;
+            }
+            .nuvem-marca {
+                background: url('../img/NuvemMarca.png');
+                background-repeat: no-repeat;
+                height: 458px;
+                width: 600px;
+                position: relative;
+                display: flex;
+                transform: scale(.5);
+                max-width: 200%;
+                top: -121px;
+            }
+            .title-primary {
+                top: -250px;
+                position: relative;
+            }
+            .header-content-inner {
+                height: 400px;
+            }
+        }
+        
+        @media only screen and ( max-device-width: 375px) {
+            .title_big {
+                font-size: 30px;
+                padding: 4px;
+            }
+            .title_medium {
+                font-size: 25px;
+                padding: 2px;
+            }
+            .title_small {
+                font-size: 15px;
+                padding: 1px;
+            }
+            .nuvem-marca {
+                background: url('../img/NuvemMarca.png');
+                background-repeat: no-repeat;
+                height: 458px;
+                width: 600px;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform: scale(.4);
+                max-width: 200%;
+                right: 170px;
+                top: -180px;
+            }
+            .title-primary {
+                top: -280px;
+                position: relative;
+            }
+            .header-content-inner {
+                height: 350px;
+            }
+        }
