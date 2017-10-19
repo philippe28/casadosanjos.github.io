@@ -1,4 +1,4 @@
-        .google-maps {
+.google-maps {
             position: relative;
             padding-bottom: 75%;
             height: 0;
@@ -123,4 +123,135 @@
         .btn-donation .badge {
             color: white;
             background-color: #FE9125;
+        }
+        
+        @media only screen and (max-device-width: 1064px) {
+            .title_big {
+                font-size: 60px;
+                padding: 50px;
+            }
+            .title_medium {
+                font-size: 60px;
+                padding: 35px;
+            }
+            .title_small {
+                font-size: 40px;
+                padding: 25px;
+            }
+            .title-primary {
+                top: 30px;
+            }
+            .nuvem-marca {
+                background: url('../img/NuvemMarca.png');
+                background-repeat: no-repeat;
+                height: 458px;
+                width: 600px;
+                position: relative;
+                display: flex;
+                transform: scale(.4);
+                max-width: 200%;
+                top: 90px;
+                right: 100px;
+            }
+            .title-primary {
+                top: 25px;
+            }
+        }
+        
+        @media only screen and (max-device-width: 992px) {
+            .title_big {
+                font-size: 100px;
+                padding: 50px;
+            }
+            .title_medium {
+                font-size: 80px;
+                padding: 35px;
+            }
+            .title_small {
+                font-size: 60px;
+                padding: 25px;
+            }
+            .nuvem-marca {
+                background: url('../img/NuvemMarca.png');
+                background-repeat: no-repeat;
+                height: 458px;
+                width: 600px;
+                position: relative;
+                display: flex;
+                transform: scale(.6);
+                max-width: 200%;
+                top: 70px;
+            }
+            .title-primary {
+                top: 20px;
+            }
+        }
+        
+        @media only screen and (max-device-width: 728px) {
+            .title_big {
+                font-size: 100px;
+                padding: 25px;
+            }
+            .title_medium {
+                font-size: 80px;
+                padding: 15px;
+            }
+            .title_small {
+                font-size: 60px;
+                padding: 5px;
+            }
+            .nuvem-marca {
+                background: url('../img/NuvemMarca.png');
+                background-repeat: no-repeat;
+                height: 458px;
+                width: 600px;
+                position: relative;
+                display: flex;
+                transform: scale(.5);
+                max-width: 200%;
+                top: -121px;
+            }
+            .title-primary {
+                top: -250px;
+                position: relative;
+            }
+            .header-content-inner {
+                height: 400px;
+            }
+        }
+        
+        @media only screen and ( max-device-width: 375px) {
+            .title_big {
+                font-size: 30px;
+                padding: 4px;
+            }
+            .title_medium {
+                font-size: 25px;
+                padding: 2px;
+            }
+            .title_small {
+                font-size: 15px;
+                padding: 1px;
+            }
+            .nuvem-marca {
+                background: url('../img/NuvemMarca.png');
+                background-repeat: no-repeat;
+                height: 458px;
+                width: 600px;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform: scale(.4);
+                max-width: 200%;
+                right: 170px;
+                top: -180px;
+            }
+            .title-primary {
+                top: -280px;
+                position: relative;
+            }
+            .header-content-inner {
+                height: 350px;
+            }
         }
