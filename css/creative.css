@@ -196,7 +196,7 @@ body {
 
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
-  background-color: white;
+      background-color: rgba(255,255,255, .8);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
