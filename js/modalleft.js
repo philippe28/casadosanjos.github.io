@@ -10,7 +10,8 @@ $(function() {
                 
                 init:function(){
                     $('.feedback-panel').css('height',feedbackTab.containerHeight + 'px');
-                    
+                     $('.feedback-panel').animate({left:'-' + feedbackTab.containerWidth}, feedbackTab.speed)
+                            .removeClass('open');
                     $('a.feedback-tab').click(function(event){
 
                         if ($('.feedback-panel').hasClass('open')) {
