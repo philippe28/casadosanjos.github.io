@@ -65,7 +65,7 @@ body {
 
 @font-face {
     font-family: 'bariol_regularregular';
-    src: url('bariolregular-webfont.woff2') format('woff2'), url('bariolregular-webfont.woff') format('woff');
+    src: url('../fonts/bariolregular-webfont.woff2') format('woff2'), url('../fonts/bariolregular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -230,6 +230,7 @@ body {
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link:focus,
 #mainNav .navbar-nav>li.nav-item>a.nav-link {
+    font-family: 'bariol_regularregular';
     font-size: 18px;
     text-transform: uppercase;
     color: #59595b;
