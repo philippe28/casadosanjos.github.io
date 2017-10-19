@@ -33,6 +33,11 @@
     } else {
       $("#mainNav").removeClass("navbar-shrink");
     }
+    if ($(window).scrollTop() > $(".title-primary").offset().top) {
+      $('.logo_header').addClass('logo_header_active ');
+    } else {
+      $('.logo_header').removeClass('logo_header_active ');
+    }
   });
 
   // Scroll reveal calls

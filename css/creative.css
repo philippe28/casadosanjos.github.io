@@ -100,10 +100,15 @@ body {
 -o-transform: rotate(-3deg);
 }
 
-.logo_header{
-
+.logo_header {
+  opacity: 0;
   width: 84px;
   height: 100%;
+  transition: 300ms;
+}
+
+.logo_header_active {
+  opacity: 1;
 }
 
 .font_header {
@@ -217,11 +222,10 @@ body {
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     font-size: 18px;
     text-transform: uppercase;
-    color: #222222; }
+    color: #59595b; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
-      font-size: 19px;
-      font-style: bold; }
+      font-weight: bold; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active,
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: #F05F40 !important;
