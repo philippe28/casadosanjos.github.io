@@ -25,10 +25,49 @@ body {
     -webkit-animation-timing-function: linear;
 }
 
+#doacoes{
+  padding: 50px;
+}
+
 @-webkit-keyframes fontfix {
     from { opacity: 1; }
     to   { opacity: 1; }
 }
+
+
+     .feedback-panel {
+         padding:20px;
+         width: 250px;
+         height: auto;
+         background: white;
+         border: #29216d 1px solid;
+         position:fixed;
+         top:80px;
+         left:0px;
+          z-index:500
+     }
+
+.badge{
+  font-size: 20px;
+  color: black;
+}
+     
+     .feedback-panel a.feedback-tab {
+           background:transparent url(../img/button_left.png) no-repeat scroll 0 0;
+           border-width: 1px 1px 1px 0;
+           display:block;
+           height:101px;
+           left:69px;
+           bottom:21px;
+           position:relative;
+           float:right;
+           text-indent:-9999px;
+           width:50px;
+           outline:none;
+           
+     }
+     
+
 
 @font-face {
     font-family: 'bariol_regularregular';
