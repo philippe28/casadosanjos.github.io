@@ -5,8 +5,8 @@
 
 @font-face {
     font-family: 'bariol_regularregular';
-    src: url('bariolregular-webfont.woff2') format('woff2'),
-         url('bariolregular-webfont.woff') format('woff');
+    src: url('../fonts/bariolregular-webfont.woff2') format('woff2'),
+         url('../fonts/bariolregular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -191,5 +191,6 @@ height: 100%;
 }
 
 hr.style14{
-  border-top: 1px solid #8c8b8b;
+  border-top: 1px solid #fff;
+  max-width: 500px;
 }
