@@ -276,6 +276,7 @@ header.masthead {
     padding: 150px 15px 100px;
     text-align: center; }
     header.masthead .header-content .header-content-inner h1 {
+      font-family: 'Permanent Marker', cursive;
       font-size: 30px;
       font-weight: 700;
       margin-top: 0;
@@ -339,7 +340,7 @@ header.masthead {
   justify-content: center; 
   align-items: center;
   transform: scale(.8);
-  position: relative;
+  max-width: 100%;
 }    
 
 .portfolio-box {
@@ -481,3 +482,30 @@ header.masthead {
 
 .btn-xl {
   padding: 15px 30px; }
+
+
+/*new media*/
+@media only screen and (max-width: 1064px) {
+  header.masthead .header-content .header-content-inner h1 {
+    text-indent: 68px;  
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header.masthead .header-content .header-content-inner h1 {
+    font-size: 58px;
+  }
+} 
+
+@media only screen and (max-width: 728px) {
+  header.masthead .header-content .header-content-inner h1 {
+    font-size: 44px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  header.masthead .header-content .header-content-inner h1 {
+    text-indent: 0;
+    font-size: 44px;
+  }
+}  
