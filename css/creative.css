@@ -177,7 +177,6 @@ body {
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus,
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     font-size: 13px;
-    font-weight: 700;
     text-transform: uppercase;
     color: #222222; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
@@ -263,7 +262,15 @@ header.masthead {
           margin-right: auto;
           margin-left: auto; }
           header.masthead .header-content .header-content-inner h1 {
-            font-size: 50px; }
+            font-size: 68px;
+            font-family: 'Permanent Marker', cursive;
+                position: relative;
+                top: -41px;
+                text-indent: 220px;
+            -webkit-transform: rotate(-3deg);
+            -moz-transform: rotate(-3deg);
+            -ms-transform: rotate(-3deg);
+            -o-transform: rotate(-3deg); }
           header.masthead .header-content .header-content-inner p {
             font-size: 18px;
             max-width: 80%;
