@@ -112,8 +112,8 @@
   }
 }
 /*----page styles---*/
-body {
-  background-image: url('/img/BackgroundContato.png');
+.contact{
+  background-image: url('../img/BackgroundContato.png');
   font-family: 'Roboto', sans-serif;
 }
 
@@ -154,7 +154,7 @@ body {
   font-size: 102%;
 }
 
-.section-heading1 {
+.section-heading1{
   font-family: 'bariol_regularregular';
   font-size: 31px;
   font-weight: 700;
@@ -188,4 +188,8 @@ height: 100%;
 
 .visitar {
   margin-top: 28.5px;
+}
+
+hr.style14{
+  border-top: 1px solid #8c8b8b;
 }
