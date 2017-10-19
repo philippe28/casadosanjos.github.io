@@ -25,10 +25,49 @@ body {
     -webkit-animation-timing-function: linear;
 }
 
+#doacoes{
+  padding: 50px;
+}
+
 @-webkit-keyframes fontfix {
     from { opacity: 1; }
     to   { opacity: 1; }
 }
+
+
+     .feedback-panel {
+         padding:20px;
+         width: 250px;
+         height: auto;
+         background: white;
+         border: #29216d 1px solid;
+         position:fixed;
+         top:80px;
+         left:0px;
+          z-index:500
+     }
+
+.badge{
+  font-size: 20px;
+  color: black;
+}
+     
+     .feedback-panel a.feedback-tab {
+           background:transparent url(../img/button_left.png) no-repeat scroll 0 0;
+           border-width: 1px 1px 1px 0;
+           display:block;
+           height:101px;
+           left:69px;
+           bottom:21px;
+           position:relative;
+           float:right;
+           text-indent:-9999px;
+           width:50px;
+           outline:none;
+           
+     }
+     
+
 
 @font-face {
     font-family: 'bariol_regularregular';
@@ -257,19 +296,22 @@ header.masthead {
         -ms-transform: translateY(-50%);
         transform: translateY(-50%); }
         header.masthead .header-content .header-content-inner {
-          max-width: 1200px;
+          max-width: 1140px;
           margin-right: auto;
           margin-left: auto; }
           header.masthead .header-content .header-content-inner h1 {
             font-size: 80px;
             font-family: 'Permanent Marker', cursive;
+            float: right;
                 position: relative;
-                top: -1.4em;
+                top: -1.3em;
                 text-indent: 220px;
             -webkit-transform: rotate(-3deg);
             -moz-transform: rotate(-3deg);
             -ms-transform: rotate(-3deg);
-            -o-transform: rotate(-3deg); }
+            -o-transform: rotate(-3deg);
+                padding-right: 15px;
+            padding-left: 15px; }
           header.masthead .header-content .header-content-inner p {
             font-size: 18px;
             max-width: 80%;
@@ -294,7 +336,6 @@ header.masthead {
   align-items: center;
   transform: scale(.8);
   position: relative;
-  top: -1.2em;
 }    
 
 .portfolio-box {
