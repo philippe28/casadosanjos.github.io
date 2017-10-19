@@ -1,3 +1,7 @@
+$(document).ready(function () {
+  //your code here
+
+
 $(function() {
             
             
@@ -34,3 +38,4 @@ $(function() {
             
         });
 
+});
