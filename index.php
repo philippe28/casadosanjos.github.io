@@ -17,6 +17,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
     <script src="js/modalleft.js"></script>
     <!-- Plugin CSS -->
@@ -74,15 +75,15 @@
     </header>
 
 
-    <section class="bg-primary" id="sobre">
+    <section class="bg-primary sobre" id="sobre">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="section-heading font_only title_big white_txt">Sobre</h2>
-                    <hr class="light">
+                <div class="col-lg-8 col-lg-offset-4 texto-sobre">
+                    <!-- <h2 class="section-heading font_only title_big white_txt">Sobre</h2>
+                    <hr class="light"> -->
                     <p class="text-faded txt_sobre">A Casa dos Anjos é uma unidade de acolhimento institucional criada pelo Grupo de Desenvolvimento Comunitário – GDECOM. Ela é destinada a crianças e adolescentes do sexo masculino na faixa etária de 12 a 17 anos e 11 meses, que se encontram em situação de vulnerabilidade social.</p>
                     <p class ="text-faded txt_sobre"> Com características residenciais e um ambiente acolhedor, o projeto visa desenvolver relações mais próximas do convívio familiar, protegendo; educando e incentivando a socialização dos adolescentes.  Durante o processo de acolhimento, a Casa dos Anjos busca mudar a realidade dos acolhidos de forma positiva, realizando atividades que promovem sua formação, através do acesso à cultura; o convívio comunitário, profissionalização e diversos trabalhos educativos.</p>
-                    <a class="btn btn-default btn-xl js-scroll-trigger" href="#doacoes">Quer ajudar?</a>
+                    <!-- <a class="btn btn-default btn-xl js-scroll-trigger" href="#doacoes">Quer ajudar?</a> -->
                 </div>
             </div>
         </div>
