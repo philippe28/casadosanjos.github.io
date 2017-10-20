@@ -229,11 +229,18 @@ hr.style14{
 }
 
 .texto-sobre {
-  background-image: url('../img/BoxDobraMenino.png') no-repeat bottom center scroll;
+ 
   background-color: rgba(201, 217, 212, 0.6);
   border-radius:10px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; 
+}
+
+@media(max-width: 768px){
+  .sobre{ 
+    background-size: 190% 100%;
+
+  }
 }
