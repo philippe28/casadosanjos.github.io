@@ -108,7 +108,7 @@
 
 @media (min-width: 768px) {
   .contact-wrap {
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
 }
@@ -116,10 +116,6 @@
 .contact{
   background-image: url('../img/BackgroundContato.png');
   font-family: 'Roboto', sans-serif;
-}
-
-.contato {
-background-image: url('https://sreanapolis.files.wordpress.com/2010/03/fundo-verde.jpg');
 }
 
 .contact-wrap {
