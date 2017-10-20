@@ -17,6 +17,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
     <script src="js/modalleft.js"></script>
     <!-- Plugin CSS -->
@@ -74,15 +75,15 @@
     </header>
 
 
-    <section class="bg-primary" id="sobre">
+    <section class="bg-primary sobre" id="sobre">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="section-heading font_only title_big white_txt">Sobre</h2>
-                    <hr class="light">
+                <div class="col-lg-8 col-lg-offset-4 texto-sobre">
+                    <!-- <h2 class="section-heading font_only title_big white_txt">Sobre</h2>
+                    <hr class="light"> -->
                     <p class="text-faded txt_sobre">A Casa dos Anjos é uma unidade de acolhimento institucional criada pelo Grupo de Desenvolvimento Comunitário – GDECOM. Ela é destinada a crianças e adolescentes do sexo masculino na faixa etária de 12 a 17 anos e 11 meses, que se encontram em situação de vulnerabilidade social.</p>
                     <p class ="text-faded txt_sobre"> Com características residenciais e um ambiente acolhedor, o projeto visa desenvolver relações mais próximas do convívio familiar, protegendo; educando e incentivando a socialização dos adolescentes.  Durante o processo de acolhimento, a Casa dos Anjos busca mudar a realidade dos acolhidos de forma positiva, realizando atividades que promovem sua formação, através do acesso à cultura; o convívio comunitário, profissionalização e diversos trabalhos educativos.</p>
-                    <a class="btn btn-default btn-xl js-scroll-trigger" href="#doacoes">Quer ajudar?</a>
+                    <!-- <a class="btn btn-default btn-xl js-scroll-trigger" href="#doacoes">Quer ajudar?</a> -->
                 </div>
             </div>
         </div>
@@ -202,24 +203,28 @@
                          <p class="info ">(31) 3324.6738 | (31) 3450.1546</p>
                      </div>
                      <div class="contato col-lg-6">
-                         <form action=" " class="contact-form ">
+						<?php
+							if ($_POST){
+								require 'php/contactHelper.php';
+								enviarEmail($_POST['email'], "", montarEmail($_POST['nome'], $_POST['mensagem']));
+							}
+						?>
+                         <form action="index.php" method="post" class="contact-form ">
                                  <h2 class="section-heading1 ">Deixe seu Recadinho</h2>
                                  <hr class="style14">
                                  <div class="input-block ">
                                      <label for=" ">Nome</label>
-                                     <input type="text " class="form-control ">
+                                     <input type="text " name="nome" class="form-control" required>
                                 </div>
                                 <div class="input-block ">
                                      <label for=" ">E-mail</label>
-                                     <input type="text " class="form-control ">
+                                     <input type="text " name="email" class="form-control" required>
                                  </div>
                                  <div class="input-block textarea ">
                                      <label for=" ">Mensagem</label>
-                                     <textarea rows="3 " type="text " class="form-control "></textarea>
+                                     <textarea rows="3 " type="text " name="mensagem" class="form-control" required></textarea>
                                  </div>
-                                 <button class="square-button pull-right ">
-                                     <!--<i class="fa fa-paper-plane-o aviao " aria-hidden="true "></i> -->
-                                     Enviar</button>
+                                 <button class="square-button pull-right">Enviar</button>
                          </form>
                      </div>
                  </section>
