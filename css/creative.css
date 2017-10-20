@@ -368,6 +368,10 @@ header.masthead .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
     }
+    .navbar-nav {
+      float: right;
+    }
+
 }
 
 .service-box {
@@ -645,4 +649,8 @@ fieldset[disabled] .btn-primary:hover {
         text-indent: 0;
         font-size: 44px;
     }
+}
+
+.navbar {
+  position: fixed;
 }

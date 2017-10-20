@@ -118,6 +118,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.contato {
+background-image: url('https://sreanapolis.files.wordpress.com/2010/03/fundo-verde.jpg');
+}
+
 .contact-wrap {
   padding: 15px;
 }
@@ -200,4 +204,13 @@ hr.style14{
   border-top: 1px solid #fff;
   max-width: 500px;
   margin-top:10px;
+}
+
+.clearfix::before, .clearfix::before {
+  content: '';
+  display: table;
+}
+
+.clearfix::before {
+  clear: both;
 }
