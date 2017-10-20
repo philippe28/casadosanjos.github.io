@@ -133,3 +133,9 @@ body {
 /* Opera */
 -o-transform: rotate(-3deg);
 }
+
+@media only screen and (max-width: 425px) {
+  .fale {
+    font-size: 40px;
+  }
+}
