@@ -243,4 +243,10 @@ hr.style14{
     background-size: 190% 100%;
 
   }
+
+  @media (max-width: 560px){
+    .sobre{
+      background: url('https://www.beautycolorcode.com/C4CBCF-2880x1800.png') no-repeat bottom center scroll;
+    }
+  }
 }
