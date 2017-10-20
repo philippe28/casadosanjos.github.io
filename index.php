@@ -202,24 +202,28 @@
                          <p class="info ">(31) 3324.6738 | (31) 3450.1546</p>
                      </div>
                      <div class="contato col-lg-6">
-                         <form action=" " class="contact-form ">
+						<?php
+							if ($_POST){
+								require 'php/contactHelper.php';
+								enviarEmail($_POST['email'], "", montarEmail($_POST['nome'], $_POST['mensagem']));
+							}
+						?>
+                         <form action="index.php" method="post" class="contact-form ">
                                  <h2 class="section-heading1 ">Deixe seu Recadinho</h2>
                                  <hr class="style14">
                                  <div class="input-block ">
                                      <label for=" ">Nome</label>
-                                     <input type="text " class="form-control ">
+                                     <input type="text " name="nome" class="form-control" required>
                                 </div>
                                 <div class="input-block ">
                                      <label for=" ">E-mail</label>
-                                     <input type="text " class="form-control ">
+                                     <input type="text " name="email" class="form-control" required>
                                  </div>
                                  <div class="input-block textarea ">
                                      <label for=" ">Mensagem</label>
-                                     <textarea rows="3 " type="text " class="form-control "></textarea>
+                                     <textarea rows="3 " type="text " name="mensagem" class="form-control" required></textarea>
                                  </div>
-                                 <button class="square-button pull-right ">
-                                     <!--<i class="fa fa-paper-plane-o aviao " aria-hidden="true "></i> -->
-                                     Enviar</button>
+                                 <button class="square-button pull-right">Enviar</button>
                          </form>
                      </div>
                  </section>
