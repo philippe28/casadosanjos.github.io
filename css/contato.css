@@ -210,3 +210,30 @@ hr.style14{
 .clearfix::before {
   clear: both;
 }
+
+
+.sobre {
+  background: url('../img/FundoMeninoAsa.png') no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+.sobre p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: black;
+}
+
+.texto-sobre {
+  background-image: url('../img/BoxDobraMenino.png') no-repeat bottom center scroll;
+  background-color: rgba(201, 217, 212, 0.6);
+  border-radius:10px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
