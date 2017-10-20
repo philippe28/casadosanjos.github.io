@@ -240,13 +240,23 @@ hr.style14{
 
 @media(max-width: 768px){
   .sobre{ 
-    background-size: 190% 100%;
+    background-position: 30% 50%;
 
   }
 
   @media (max-width: 560px){
     .sobre{
-      background: url('https://www.beautycolorcode.com/C4CBCF-2880x1800.png') no-repeat bottom center scroll;
+      background-size: cover;
+      background-position: 35% 50%;
+
+    }
+  }
+
+   @media (max-width: 420px){
+    .sobre{
+      background-size: cover;
+      background-position: 80% 50%;
+
     }
   }
 }
