@@ -13,6 +13,8 @@ html {
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900);
 .contact-form {
     margin-top: 30px;
+    width: 70%;
+    float: right; 
 }
 
 body {
