@@ -401,7 +401,7 @@ header.masthead .header-content .header-content-inner p {
     max-width: 100%;
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 638px) {
   .nuvem-marca {
     transform: scale(.5);
     max-width: none;
@@ -662,8 +662,25 @@ fieldset[disabled] .btn-primary:hover {
   position: fixed;
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 768px) {
 .btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
   content: none;
 }
 }
+
+@media only screen and (min-width: 992px) {
+
+    .navbar-collapse.collapse {
+      display: block !important;
+      height: auto !important;
+      padding-bottom: 0; // Override default setting
+      overflow: visible !important;
+    }
+
+    .navbar-collapse.collapse.in {
+      overflow-y: visible;
+    }
+  }
+
+
+
