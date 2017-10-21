@@ -101,6 +101,7 @@
                 </div>
             </div>
         </div>
+		<div class="container">
         <div class="clearfix">
             <div id="js-filters-juicy-projects" class="cbp-l-filters-button cbp-l-filters-left">
                 <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
@@ -164,7 +165,7 @@
                     </div>
                 </div>
                 <div class="cbp-l-grid-projects-title"><?= $row['nome'] ?></div>
-                <div class="cbp-l-grid-projects-desc"><?= $row['valor'] ?></div>
+                <div class="cbp-l-grid-projects-desc"><?= "R$".$row['valor'] ?></div>
             </div>
 			<?php } ?>
         </div>
@@ -176,6 +177,7 @@
                 <span class="cbp-l-loadMore-noMoreLoading">NADA MAIS</span>
             </a>
         </div>
+		</div>
     </section>
 
 
