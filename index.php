@@ -203,13 +203,7 @@
                          <p class="info ">(31) 3324.6738 | (31) 3450.1546</p>
                      </div>
                      <div class="contato col-lg-6">
-						<?php
-							if ($_POST){
-								require 'php/contactHelper.php';
-								enviarEmail($_POST['email'], "", montarEmail($_POST['nome'], $_POST['mensagem']));
-							}
-						?>
-                         <form action="index.php" method="post" class="contact-form ">
+                         <form action="php/contactHelper.php" method="post" class="contact-form ">
                                  <h2 class="section-heading1 ">Deixe seu Recadinho</h2>
                                  <hr class="style14">
                                  <div class="input-block ">
