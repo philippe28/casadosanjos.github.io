@@ -27,3 +27,22 @@
   .glyphicon-shopping-cart:before{
     padding-right: 4px;
   }
+
+  .produto {
+    padding-bottom: 25px;
+  }
+
+  .descricao-produto {
+    font-family: 'Raleway', sans-serif;
+    font-size:14px;
+    padding-top: 2px;
+    margin-bottom: 0px;
+  }
+
+  .imagem-produto {
+    border-radius: 10px;
+  }
+
+ /* #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+    color: #FF6B00;
+  }*/
