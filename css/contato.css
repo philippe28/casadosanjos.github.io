@@ -31,7 +31,7 @@
   border: solid 0.5px #00C150;
 }
 .contact-form .input-block.textarea {
-  height: 290px;
+  height: 220px;
 }
 
 @media (max-width: 500px) {
