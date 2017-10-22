@@ -34,7 +34,18 @@
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="css/creative.css" rel="stylesheet">
 
-
+ <style>
+  .badge-notify{
+    background:red;
+    position:relative;
+    top: -20px;
+    right: 10px;
+  }
+  .my-cart-icon-affix {
+    position: fixed;
+    z-index: 999;
+  }
+  </style>
 </head>
 
 <body id="page-top">
@@ -60,6 +71,8 @@
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#contato">Contato</a>
                     </li>
+                    
+
 
                 </ul>
             </div>
@@ -95,255 +108,70 @@
 
     <section id="doacoes" class="blue_bg">
 
-        <div class="container">
+        <div class="page-header">
+    <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h1 class="font_only white_txt title_big">Nosso Bazar</h1>
-                    <hr class="primary">
+                    <div style="cursor: pointer;">
+                        <span class="glyphicon glyphicon-shopping-cart my-cart-icon"></span>
+                        <a class="my-cart-icon cart_txt">Minhas doações</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="clearfix">
-            <div id="js-filters-juicy-projects" class="cbp-l-filters-button cbp-l-filters-left">
-                <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
-                    Tudo
-                    <div class="cbp-filter-counter"></div>
-                </div>
-                <div data-filter=".limpeza" class="cbp-filter-item">
-                    Limpeza
-                    <div class="cbp-filter-counter"></div>
-                </div>
-                <div data-filter=".hig-pessoal" class="cbp-filter-item">
-                    Higiene Pessoal
-                    <div class="cbp-filter-counter"></div>
-                </div>
-                <div data-filter=".jogos" class="cbp-filter-item">
-                    Jogos
-                    <div class="cbp-filter-counter"></div>
-                </div>
-                <div data-filter=".outros" class="cbp-filter-item">
-                    Outros
-                    <div class="cbp-filter-counter"></div>
-                </div>
-            </div>
+      
+      </div>
+      
 
-            <div id="js-sort-juicy-projects" class="cbp-l-sort cbp-l-filters-right">
-                <div class="cbp-l-dropdown">
-                    <div class="cbp-l-dropdown-wrap">
-                        <div class="cbp-l-dropdown-header">Filtragem original</div>
-                        <div class="cbp-l-dropdown-list">
-                            <div class="cbp-l-dropdown-item cbp-sort-item cbp-l-dropdown-item--active" data-sort="">Filtragem original</div>
-                            <div class="cbp-l-dropdown-item cbp-sort-item" data-sort=".cbp-l-grid-projects-title">Título</div>
-                            <div class="cbp-l-dropdown-item cbp-sort-item" data-sort=".cbp-l-grid-projects-desc">Descrição</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cbp-l-direction cbp-l-direction--second">
-                    <div class="cbp-l-direction-item cbp-sort-item" data-sortBy="string:asc"></div>
-                    <div class="cbp-l-direction-item cbp-sort-item" data-sortBy="string:desc"></div>
-                </div>
-            </div>
-        </div>
+  <div class="row">
+    <div class="col-md-3 text-center">
+      <img src="images/img_1.png" width="150px" height="150px">
+      <br>
+      Liquidificador - <strong>R$10</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-summary="summary 1" data-price="10" data-quantity="1" data-image="images/img_1.png">DOAR</button>
+   
+    </div>
 
-        <div id="js-grid-juicy-projects" class="cbp">
-            <div class="cbp-item graphic">
-                <div class="cbp-caption">
-                    <div class="cbp-caption-defaultWrap">
-                        <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/ab19cd" alt="">
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                        <div class="cbp-l-caption-alignCenter">
-                            <div class="cbp-l-caption-body">
-                                <button type="button" class="btn btn-primary carrinho_modal">DOAR</button>
+    <div class="col-md-3 text-center">
+      <img src="images/img_2.png" width="150px" height="150px">
+      <br>
+      Controle - <strong>R$20</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="2" data-name="product 2" data-summary="summary 2" data-price="20" data-quantity="1" data-image="images/img_2.png">DOAR</button>
+ 
+    </div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cbp-l-grid-projects-title">Papel Higiênico</div>
-                <div class="cbp-l-grid-projects-desc">R$4,99</div>
-            </div>
-            <div class="cbp-item hig-pessoal logos">
-                <div class="cbp-caption">
-                    <div class="cbp-caption-defaultWrap">
-                        <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/af7705" alt="">
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                        <div class="cbp-l-caption-alignCenter">
-                            <div class="cbp-l-caption-body">
-                                <button type="button" class="btn btn-primary carrinho_modal">DOAR</button>
+    <div class="col-md-3 text-center">
+      <img src="images/img_3.png" width="150px" height="150px">
+      <br>
+      Camera - <strong>R$30</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="3" data-name="product 3" data-summary="summary 3" data-price="30" data-quantity="1" data-image="images/img_3.png">DOAR</button>
+      
+    </div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cbp-l-grid-projects-title">Shampoo</div>
-                <div class="cbp-l-grid-projects-desc">R$4,99</div>
-            </div>
-            <div class="cbp-item hig-pessoal logos">
-                <div class="cbp-caption">
-                    <div class="cbp-caption-defaultWrap">
-                        <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/308f13" alt="">
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                        <div class="cbp-l-caption-alignCenter">
-                            <div class="cbp-l-caption-body">
-								<button type="button" class="btn btn-primary carrinho_modal">DOAR</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cbp-l-grid-projects-title">Condicionador</div>
-                <div class="cbp-l-grid-projects-desc">R$4,99</div>
-            </div>
-            <div class="cbp-item hig-pessoal graphic">
-                <div class="cbp-caption">
-                    <div class="cbp-caption-defaultWrap">
-                        <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/2d3e6d" alt="">
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                        <div class="cbp-l-caption-alignCenter">
-                            <div class="cbp-l-caption-body">
-                                <button type="button" class="btn btn-primary carrinho_modal">DOAR</button>
+    <div class="col-md-3 text-center">
+      <img src="images/img_4.png" width="150px" height="150px">
+      <br>
+      Ferro - <strong>R$40</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="4" data-name="product 4" data-summary="summary 4" data-price="40" data-quantity="1" data-image="images/img_4.png">DOAR</button>
+     
+    </div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cbp-l-grid-projects-title">Sabonete</div>
-                <div class="cbp-l-grid-projects-desc">R$4,99</div>
-            </div>
+    <div class="col-md-3 text-center">
+      <img src="images/img_5.png" width="150px" height="150px">
+      <br>
+      Máquina de lavar - <strong>R$50</strong>
+      <br>
+      <button class="btn btn-danger my-cart-btn" data-id="5" data-name="product 5" data-summary="summary 5" data-price="50" data-quantity="1" data-image="images/img_5.png">DOAR</button>
+   
+    </div>
 
-            <div class="cbp-item hig-pessoal web-design">
-                <div class="cbp-caption">
-                    <div class="cbp-caption-defaultWrap">
-                        <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/b08497" alt="">
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                        <div class="cbp-l-caption-alignCenter">
-                            <div class="cbp-l-caption-body">
-                                <button type="button" class="btn btn-primary carrinho_modal">DOAR</button>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cbp-l-grid-projects-title">Prestobarba</div>
-                <div class="cbp-l-grid-projects-desc">R$4,99</div>
-            </div>
-            <div class="cbp-item hig-pessoal logos">
-                <div class="cbp-caption">
-                    <div class="cbp-caption-defaultWrap">
-                        <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/319ca5" alt="">
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                        <div class="cbp-l-caption-alignCenter">
-                            <div class="cbp-l-caption-body">
-                                <button type="button" class="btn btn-primary carrinho_modal">DOAR</button>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cbp-l-grid-projects-title">Creme de Pele</div>
-                <div class="cbp-l-grid-projects-desc">R$4,99</div>
-            </div>
-            <div class="cbp-item limpeza graphic">
-                <div class="cbp-caption">
-                    <div class="cbp-caption-defaultWrap">
-                        <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/33cbc1" alt="">
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                        <div class="cbp-l-caption-alignCenter">
-                            <div class="cbp-l-caption-body">
-                                <button type="button" class="btn btn-primary carrinho_modal">DOAR</button>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cbp-l-grid-projects-title">Detergente</div>
-                <div class="cbp-l-grid-projects-desc">R$4,99</div>
-            </div>
-            <div class="cbp-item limpeza graphic">
-                <div class="cbp-caption">
-                    <div class="cbp-caption-defaultWrap">
-                        <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/b4e2cf" alt="">
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                        <div class="cbp-l-caption-alignCenter">
-                            <div class="cbp-l-caption-body">
-                                <button type="button" class="btn btn-primary carrinho_modal">DOAR</button>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cbp-l-grid-projects-title">Sabão em pó</div>
-                <div class="cbp-l-grid-projects-desc">R$4,99</div>
-            </div>
-            <div class="cbp-item limpeza web-design">
-                <div class="cbp-caption">
-                    <div class="cbp-caption-defaultWrap">
-                        <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/35fadd" alt="">
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                        <div class="cbp-l-caption-alignCenter">
-                            <div class="cbp-l-caption-body">
-                                <button type="button" class="btn btn-primary carrinho_modal">DOAR</button>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cbp-l-grid-projects-title">Amaciante</div>
-                <div class="cbp-l-grid-projects-desc">R$4,99</div>
-            </div>
-            <div class="cbp-item limpeza logos">
-                <div class="cbp-caption">
-                    <div class="cbp-caption-defaultWrap">
-                        <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/b611ec" alt="">
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                        <div class="cbp-l-caption-alignCenter">
-                            <div class="cbp-l-caption-body">
-                                <button type="button" class="btn btn-primary carrinho_modal">DOAR</button>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cbp-l-grid-projects-title">Desinfetante</div>
-                <div class="cbp-l-grid-projects-desc">R$4,99</div>
-            </div>
-            <div class="cbp-item limpeza web-design">
-                <div class="cbp-caption">
-                    <div class="cbp-caption-defaultWrap">
-                        <img src="http://scriptpie.com/cubeportfolio/img/?i=380x250/ee3501" alt="">
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                        <div class="cbp-l-caption-alignCenter">
-                            <div class="cbp-l-caption-body">
-                                <button type="button" class="btn btn-primary carrinho_modal">DOAR</button>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cbp-l-grid-projects-title">Vassoura</div>
-                <div class="cbp-l-grid-projects-desc">R$4,99</div>
-            </div>
-        </div>
-
-        <div id="js-loadMore-juicy-projects" class="cbp-l-loadMore-button">
-            <a href="" class="cbp-l-loadMore-link" rel="nofollow">
-                <span class="cbp-l-loadMore-defaultText">VER MAIS (<span class="cbp-l-loadMore-loadItems">6</span>)</span>
-                <span class="cbp-l-loadMore-loadingText">CARREGANDO...</span>
-                <span class="cbp-l-loadMore-noMoreLoading">NADA MAIS</span>
-            </a>
-        </div>
+  </div>
     </section>
-
 
 
     <div class="call-to-action white_bg">
@@ -394,49 +222,67 @@
          </div>
      </div>
 
-    <div class="feedback-panel">
-        <a class="feedback-tab" href="">Feedback</a>
+    
+    <script type='text/javascript' src="js/jquery.mycart.js"></script>
+    <script type="text/javascript">
+  $(function () {
 
-        <div class="container">
-            <div class="shopping-cart">
-                <div class="shopping-cart-header">
-                    <i class="fa fa-3x fa-shopping-cart cart-icon"></i><span class="badge">3 itens</span>
-                    <div class="shopping-cart-total">
-                        <span class="lighter-text">Total:</span>
-                        <span class="main-color-text">R$222,22</span>
-                    </div>
-                </div>
-                <!--end shopping-cart-header -->
+    var goToCartIcon = function($addTocartBtn){
+      var $cartIcon = $(".my-cart-icon");
+      var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
+      $addTocartBtn.prepend($image);
+      var position = $cartIcon.position();
+      $image.animate({
+        top: position.top,
+        left: position.left
+      }, 500 , "linear", function() {
+        $image.remove();
+      });
+    }
 
-                <ul class="shopping-cart-items">
-                    <li class="clearfix">
-                        <span class="item-name">Condicionador</span>
-                        <span class="item-price">R$9.99</span>
-                        <span class="item-quantity">Quantidade: 01</span>
-                    </li>
+    $('.my-cart-btn').myCart({
+      currencySymbol: '$',
+      classCartIcon: 'my-cart-icon',
+      classCartBadge: 'my-cart-badge',
+      classProductQuantity: 'my-product-quantity',
+      classProductRemove: 'my-product-remove',
+      classCheckoutCart: 'my-cart-checkout',
+      affixCartIcon: true,
+      showCheckoutModal: true,
+      numberOfDecimals: 2,
+      cartItems: [
+       
+      ],
+      clickOnAddToCart: function($addTocart){
+        goToCartIcon($addTocart);
+      },
+      afterAddOnCart: function(products, totalPrice, totalQuantity) {
+        console.log("afterAddOnCart", products, totalPrice, totalQuantity);
+      },
+      clickOnCartIcon: function($cartIcon, products, totalPrice, totalQuantity) {
+        console.log("cart icon clicked", $cartIcon, products, totalPrice, totalQuantity);
+      },
+      checkoutCart: function(products, totalPrice, totalQuantity) {
+        var checkoutString = "Preço Total: " + totalPrice + "\nQuantidade Total: " + totalQuantity;
+        checkoutString += "\n\n id \t name \t summary \t price \t quantity \t image path";
+        $.each(products, function(){
+          checkoutString += ("\n " + this.id + " \t " + this.name + " \t " + this.summary + " \t " + this.price + " \t " + this.quantity + " \t " + this.image);
+        });
+        alert(checkoutString)
+        console.log("checking out", products, totalPrice, totalQuantity);
+      },
+      getDiscountPrice: function(products, totalPrice, totalQuantity) {
+        console.log("calculating discount", products, totalPrice, totalQuantity);
+        return totalPrice * 0.5;
+      }
+    });
 
-                    <li class="clearfix">
-                        <span class="item-name">Desodorante</span>
-                        <span class="item-price">R$12.99</span>
-                        <span class="item-quantity">Quantidade: 01</span>
-                    </li>
-
-                    <li class="clearfix">
-                        <span class="item-name">Shampoo</span>
-                        <span class="item-price">R$9.99</span>
-                        <span class="item-quantity">Quantidade: 01</span>
-                    </li>
-                </ul>
-
-                <button type="button" class="btn btn-primary carrinho_modal">Concluir doação</button>
-            </div>
-            <!--end shopping-cart -->
-        </div>
-        <!--end container -->
-
-    </div>
-    </div>
-
+    $("#addNewProduct").click(function(event) {
+      var currentElementNo = $(".row").children().length + 1;
+      $(".row").append('<div class="col-md-3 text-center"><img src="images/img_empty.png" width="150px" height="150px"><br>product ' + currentElementNo + ' - <strong>$' + currentElementNo + '</strong><br><button class="btn btn-danger my-cart-btn" data-id="' + currentElementNo + '" data-name="product ' + currentElementNo + '" data-summary="summary ' + currentElementNo + '" data-price="' + currentElementNo + '" data-quantity="1" data-image="images/img_empty.png">DOAR</button><a href="#" class="btn btn-info">Detalhes</a></div>')
+    });
+  });
+  </script>
 
     <!-- Bootstrap core JavaScript -->
 
@@ -458,6 +304,7 @@
     <script src="js/creative.js"></script>
     <script src="js/galeria.js"></script>
     <script type="text/javascript" src="js/contato.js"></script>
+    <script type="text/javascript" src="js/simpleCart.js"></script>
 
 
 
