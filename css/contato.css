@@ -223,9 +223,9 @@ hr.style14{
 
 .sobre p {
   font-family: 'Raleway', sans-serif;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 500;
-  color: black;
+  color: #59595b;
 }
 
 .texto-sobre {
@@ -236,8 +236,7 @@ hr.style14{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; 
-}
-
+}   
 @media(max-width: 768px){
   .sobre{ 
     background-position: 30% 50%;
@@ -255,8 +254,9 @@ hr.style14{
    @media (max-width: 420px){
     .sobre{
       background-size: cover;
-      background-position: 80% 50%;
+      background-position: 35% 50%;
 
     }
   }
 }
+
