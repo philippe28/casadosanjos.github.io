@@ -339,7 +339,7 @@
     $(document).on('click', "." + classCheckoutCart, function(){
       var products = ProductManager.getAllProducts();
       if(!products.length) {
-        $("#" + idEmptyCartMessage).fadeTo('fast', 0.5).fadeTo('fast', 1.0);
+        $("#" + idEmptyCartMessage).fadeTo('fast', 0.2).fadeTo('fast', 0.6);
         return ;
       }
       updateCart();

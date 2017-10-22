@@ -72,7 +72,7 @@
                         <a class="nav-link js-scroll-trigger" href="#contato">Contato</a>
                     </li>
                     <li class="nav-item">
-                        <a class="my-cart-icon nav-link" href="#contato"><span class="glyphicon glyphicon-shopping-cart my-cart-icon"></span>Minhas Doações</a>
+                        <a class="my-cart-icon nav-link" href="#contato"><span class="glyphicon glyphicon-shopping-cart my-cart-icon"></span>MINHAS DOAÇÕES</a>
                     </li>
                     
 
@@ -232,13 +232,13 @@
 
     var goToCartIcon = function($addTocartBtn){
       var $cartIcon = $(".my-cart-icon");
-      var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
+      var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "500"});
       $addTocartBtn.prepend($image);
       var position = $cartIcon.position();
       $image.animate({
         top: position.top,
         left: position.left
-      }, 500 , "linear", function() {
+      }, 1400 , "linear", function() {
         $image.remove();
       });
     }
