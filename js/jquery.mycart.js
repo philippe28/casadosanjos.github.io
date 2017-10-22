@@ -223,7 +223,7 @@
 '<input type="hidden" name="hosted_button_id" value="AGHMD9TZN45UW">' +
 '<input type="image" class="'+classCheckoutCart+'" src="https://www.paypalobjects.com/pt_BR/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">' +
 '<img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">' +
-'</form></button>' +
+'</form>' +
         '</div>' +
         '</div>' +
         '</div>' +
