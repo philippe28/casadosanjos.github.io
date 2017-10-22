@@ -230,15 +230,18 @@ hr.style14{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; 
+  background-size:cover;
+  background-position: 100% 50% 
 }
 
 .sobre p {
   font-family: 'Raleway', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
   color: #59595b;
 }
+
+
 
 .texto-sobre {
  
@@ -250,6 +253,18 @@ hr.style14{
   background-size: cover; 
 }  
 
+@media(max-width: 500px)
+{
+  .text-sobre{
+    background-color:rgba(201, 217, 212, 0.8); 
+  }
+
+  .sobre p {
+    font-size: 15px;
+
+  }
+}
+
 @media(min-width: 1450px){
   .sobre{
 
@@ -258,6 +273,11 @@ hr.style14{
   }
 }
 
+@media(max-width: 1250px){
+  .sobre{
+    background-size: cover;
+  }
+}
 @media(max-width: 768px){
   .sobre{ 
     background-position: 30% 50%;
