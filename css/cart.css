@@ -23,3 +23,7 @@
   .cart_txt{
   	color: red;
   }
+
+  .glyphicon-shopping-cart:before{
+    padding-right: 4px;
+  }
