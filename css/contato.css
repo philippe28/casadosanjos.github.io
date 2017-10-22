@@ -31,7 +31,19 @@
   border: solid 0.5px #00C150;
 }
 .contact-form .input-block.textarea {
-  height: 200px;
+  height: 290px;
+}
+
+@media (max-width: 500px) {
+  .contact-form .input-block.textarea {
+    height: 200px;
+  }
+}
+
+@media (max-width: 680px) {
+  .contact-form .input-block.textarea {
+    height: 220px;
+  }
 }
 .contact-form .input-block.textarea .form-control {
   height: auto;
@@ -236,7 +248,15 @@ hr.style14{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; 
-}   
+}  
+
+@media(min-width: 1250px){
+  .sobre{
+
+    background-size: 110% 110%;
+
+  }
+
 @media(max-width: 768px){
   .sobre{ 
     background-position: 30% 50%;
