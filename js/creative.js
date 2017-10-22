@@ -40,6 +40,13 @@
     }
   });
 
+  $('.home-nav').click(function(e) {
+      e.preventDefault();
+      $('html, body').animate({
+        scrollTop: 0
+      }, 500)
+  });
+
   // Scroll reveal calls
   window.sr = ScrollReveal();
   sr.reveal('.sr-icons', {

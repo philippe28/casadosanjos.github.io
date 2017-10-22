@@ -1,0 +1,25 @@
+
+
+.carrinho_txt{
+	font-size: 20px;
+}
+
+.badge-notify{
+    background:red;
+    position:relative;
+    top: -20px;
+    right: 10px;
+  }
+  .my-cart-icon-affix {
+    position: fixed;
+    z-index: 999;
+  }
+
+  .my-cart-btn{
+  	margin: 10px;
+  	width: 90px;
+  	height: 40px;
+  }
+  .cart_txt{
+  	color: red;
+  }

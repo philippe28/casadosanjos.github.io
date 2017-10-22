@@ -3389,7 +3389,7 @@ tbody.collapse.show {
   }
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .navbar-expand-md {
     -ms-flex-direction: row;
         flex-direction: row;
@@ -3425,7 +3425,7 @@ tbody.collapse.show {
   .navbar-expand-md .navbar-toggler {
     display: none;
   }
-}
+}*/
 
 @media (max-width: 991px) {
   .navbar-expand-lg > .container,
